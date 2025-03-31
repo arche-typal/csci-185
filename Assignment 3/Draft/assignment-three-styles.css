@@ -1,0 +1,58 @@
+/* Done - Have CSS settings (internal or external) for all DIV */
+/* Done - and (have CSS settings (internal or external)) SPAN elements */
+
+/* Done - please use six (6) of the following CSS attributes (look on W3schools.com for examples). */
+
+	/* 5/6 */
+	/* background-color */
+
+	/* 6/6 */
+	/* color */
+
+	/* 3/6 */
+	/* padding */
+
+	/* 2/6 */
+	/* margin */
+
+	/* 4/6 */
+	/* width */
+
+	/* height */
+
+	/* font-family */
+
+	/* font-size */
+
+	/* font-style / font-weight */
+
+	/* 1/6 */
+	/* border   */
+
+	/* Background image */
+body {
+	background-color: black;
+}
+
+div {
+	border: 5px solid grey;
+	outline: solid;
+	padding: 2px;
+	margin: auto;
+	width: 50%;
+	background-color: darkgrey;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	outline: solid white;
+}
+
+th, td {
+	border: solid;
+}
+
+span {
+	color: yellow;
+}

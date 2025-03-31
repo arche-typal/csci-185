@@ -1,0 +1,14 @@
+CSCI185 - exam
+
+uploaded thursdays morning, due monday night
+design a page NOT website w/ inclusion of certain things
+probably have theme (favorite movie)
+
+tuesday before will go over things we have done so far
+and expected on exam
+
+have access to all sorces during exam
+if don't understand some specification on the exam can email
+if emergency question put "EMERGENCY" or "URGENT"
+
+css float examples

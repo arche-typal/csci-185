@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<!-- Google Fonts Stylesheet-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div>
+			<h1><i class="fa-solid fa-chess"></i> CHESS <i class="fa-solid fa-chess-board"></i></h1>
+			<p>Chess has always been one of my favorite games, especially when I was younger and played it more often. I did pretty well back then, enjoying the challenge of outthinking my opponent and planning ahead. Although I haven’t played in a while, I still find it incredibly engaging whenever I do. The problem-solving aspect, combined with the need for strategic foresight, makes every game feel like a mental workout. It is one of those games that never really leaves you. You might get a little rusty, but the thrill of anticipating your opponent’s next move and executing a well-planned strategy always makes it exciting.</p>
+			<p>Some great free resources for getting started:</p>
+			<a href="https://www.chess.com/" id="chessDotCom" target="_blank">chess.com</a>
+			<br><a id="lichess" href="https://lichess.org/" target="_blank">lichess.org</a>
+			<br><a id="stlChess" href="https://www.youtube.com/channel/UCM-ONC2bCHytG2mYtKDmIeA" target="_blank">Saint Louis Chess Club's YouTube Channel</a>
+		</div>
+	</body>
+</html>

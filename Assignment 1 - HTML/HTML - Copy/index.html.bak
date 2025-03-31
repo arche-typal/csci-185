@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<!-- I decided to make a css style sheet even though we haven't learned it yet.
+But, this is how I would update the background color with just html:
+
+This folder is here to demonstrate how I would use just html to make changes done in the css file
+
+-->
+<body style="background-color:black;width:1000px;">
+<style>
+body {
+  color: white;
+}
+</style>
+<h1 style="color:gray;text-align:center;">My Experience Making Art</h1>
+<img src="images/the-sun-and-the-moon.jpg" id="tsatm" width="1000px">
+<br>
+<img src="images/intertwined-with-coral.jpg" class="intro" width="496px">
+<img src="images/transforming-kitsune.jpg" class="intro" width="496px">
+<h2 style="color:gray;">About Me</h2>
+<p>Hello! 
+<br><br>
+While I enjoy coding, there's another interest of mine: <strong><mark  style="background:white;">art</mark></strong>.
+<br><br>
+This is something I did mostly in early childhood to high school. However, I'll still occasionally doodle from time to time.
+<br>
+All of the art featured on this website was created by me and more can be found <a  style="color:red;"  href="https://cargocollective.com/lilliannotley">here</a>.
+<br><br>
+<h3 style="color:gray;">How To Get Started In Art</h3>
+General quick steps for getting started in learning how to draw include:
+<ol type="I">
+	<li><b  style="color:gray;">Deciding on a subject to draw.</b></li>
+	<p>i.e. pet, relative, friend, Pinhead, landscape, everyday objects</p>
+	
+	<li><b  style="color:gray;">Deciding whether to reference real life, photograph, or another artwork.</b></li>
+	<p>Referencing real life, whether something inanimate <i  style="color:gray;">(still life)</i> or a model is the hardest way to reference a subject. This is because real life moves a lot. For example, shadows on the subject move throughout the day, the elements can affect it, or the model might fidget. It is also a very good skill to develop because you learn how to take something 3-dimensional and convert it to a 2-dimensional image. Creating the illusion of a 3-dimensional object on a 2-dimensional surface involves learning how to use shading to mimic things like lighting and textures, and paying attention to proportions in the context of a particular perspective.</p>
+	<p>A <u  style="color:gray;">photograph</u> is the easiest way to reference the subject and is a method used by <strong>many graphic novelists</strong>, like <a  style="color:red;"  href="https://www.viz.com/junji-ito">Junji Ito</a>, a manga artist who specializes in horror. Over time the eye learns to estimate body proportions better. You can also use grids if you'd like. But, you won't need to go as far as using mathematical formulas like A = πr<sup>2</sup> to calculate the shaded area of a sphere. Or, use points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) to calculate the slope of an arm pose. You won't need to measure any of that. Only do that if you really want to.</p>
+	
+	<li><b  style="color:gray;">Deciding on a medium to use.</b></li>
+	<p>The medium is what you're using to create an art piece with. Examples are pencils, markers, paper, metal, ceramics. The possibilities are really endless. For example, a controversial piece in 1917 was called "Fountain" by Marcel Duchamp. It's medium was literally <a  style="color:red;"  href="https://press.philamuseum.org/marcel-duchamp-and-the-fountain-scandal/">a urinal with the artist's signature written on it.</a></p>
+	
+	<li><b  style="color:gray;">Practice often</b></li>
+	<p>In the context of figure drawing at least <b  style="color:gray;">the more you make art, the better you get at making art.</b> As I mentioned earlier you start to notice shadows and lighting better. How to draw proportions get betters. How much pressure to apply to your pencil during sketches becomes more intuitive. Mixing paints to get the right color is more obvious.</p>
+	<p>Reading about how others came up with their technique, like the book <a  style="color:red;"  href="https://www.drawright.com/">Drawing On The Right Side of The Brain</a>, is also useful. Videos of artist's painting like <a  style="color:red;"  href="https://en.wikipedia.org/wiki/Bob_Ross">Bob Ross</a> are even better.</p>
+	<p>When I initally started drawing as a kid, I remember trying to draw a doll. By the time I was done, it looked more like actor Will Ferrell than the original doll I referenced, and I felt disheartened. I kept drawing anyways and eventually won awards in a high school art competitions like Scholastics and Young Talent.</p>
+	<img src="images/csas-young-talent.jpg" alt="Lily winning 3rd place at Young Talent in high school." class="young-talent" width="400px">
+	<img src="images/garden-of-lilies.jpg" alt="Watercolors portrait with artist and lilies." class="young-talent" width="400px">
+	<br>
+	<small>Left to right: Winning 3rd place at Young Talent, Self-portrait</small>
+</ol> 
+</p>
+<h3  style="color:gray;">My Hobby</h3>
+<p>I've been making art since I can remember. I was introduced to it by my parents at a very young and also went to a middle school and high school that emphasized learning about art.</p>
+<p>High school in particular was a busy time for me and I'll be talking mostly about that in this website. This is when I enrolled in AP Studio Art classes, and for the first time really felt pressure related to producing work. AP Studio art courses require 24 pieces of work finished by the end of the school year. A panel of judges rate each piece. A grade from 1-5 is given, with 5 being the highest.</p>
+<p>To keep things short, I'll say that when I cared about producing art for the judges, I made a 3 each time for the whole class. I felt so frustrated by this that during the last year of highschool I decided not to care what the judges thought and just create art I enjoyed. <em>Ironically</em>, that was the <i  style="color:gray;">one year</i> I made a 5 in the class.</p>
+
+<h4  style="color:gray;">AP Studio Art</h4>
+<p>I took AP Studio art every year with a different focus: Drawing (took twice for fun), 2D Art, and Ceramics</p>
+
+<h5  style="color:gray;">Traditional Art</h5>
+<h6  style="color:gray;">Drawing</h6>
+<img src="images/untitled-one.jpg" alt="Ink portrait of a boy" id="untitled-one" class="two-d" width="950px">
+<br>
+<small>Portrait done on watercolor paper with black ink and watercolor pigment.</small>
+<p>This area is more about the classical idea of traditional art and is mostly exclusive to using mediums that require drawing with the hands: 
+<ul>
+	<li>Pencil</li>
+	<li>Ink</li>
+	<li>Charcoal</li>
+	<li>Pastel</li>
+	<li>Watercolors</li>
+</ul>
+Digital art, collages and other non-traditional drawing mediums would not really apply here.</p>
+<h6  style="color:gray;">2-D Art</h6>
+<img src="images/day-of-the-dead.jpg" alt="Portrait of skulls" id="dotd" class="two-d" width="950px">
+<br>
+<small>Skulls drawn on matte paper.</small>
+<p>This concentration focuses on any 2D art subject. There is a lot more freedom in the mediums you can use. While traditional painting is allowed other art forms also allowed are: 
+<ul>
+	<li>Photography</li>
+	<li>Digital art</li>
+	<li>Weaving</li>
+	<li>Fabric Design</li>
+	<li>Printmaking</li>
+</ul>  
+Attention to the composition of the portfolio is judged. 
+How did you arrange the subject in your piece? Is it in the center, or off to the side in an interesting way? What colors did you use? Are any combinations of colors complementary? What was the reason for using these colors? For example, you decided to personify Spring and Winter and used warm colors for Spring and cool color for winter. Is there a lot of empty space in your piece, and does this seem deliberate to emphasize the subject or accidental? These are questions related to composition.</p>
+<img>
+<img>
+
+<h5  style="color:gray;">3-D Art</h5>
+<p>I think this one is pretty straightforward. This concentration focuses on 3-dimensional mediums such as:</p>
+<ul>
+	<li>Ceramics</li>
+	<li>3-D Fabric Arts</li>
+	<li>Metal Work</li>
+	<li>Architectural Models</li>
+</ul>
+<!--
+Example of adjusting width and height directly in an html img tag
+<img src="images/teapot.jpg" alt="A ceramic teapot" class="three-d" width="950px" height="500" width="600">
+-->
+<img src="images/teapot.jpg" alt="A ceramic teapot" class="three-d" width="950px">
+<br>
+<img src="images/exploding-with-ideas.jpg" alt="3-dimensional art made with a mold of a face and random metal on the floor." class="three-d" width="950px">
+<br>
+<img src="images/ferris-wheel-of-faces.jpg" alt="3-dimensional art made with a mold of a face, origami, and random metal on the floor." class="three-d" width="950px">
+<br>
+<small>&copy; 2025 <del>Real</del> Fake Copyright. All rights reserved.</small>
+</body>
+</html>

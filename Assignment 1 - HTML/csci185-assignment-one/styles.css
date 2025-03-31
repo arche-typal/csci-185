@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: white;
+	width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, small, b, i, u {
+	color:gray;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: red;
+}
+
+mark {
+	background: white;
+}
+
+strikethrough {
+	color: white;
+}
+
+.intro {
+	width: 495px;
+}
+
+.two-d {
+	width: 950px;
+}
+
+.three-d {
+	width: 950px;
+}
+
+.young-talent {
+	height: 650px;
+}
+
+#tsatm {
+	width: 1000px;
+}

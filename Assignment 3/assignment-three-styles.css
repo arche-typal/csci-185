@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+	/* font-family: roboto; */
+}
+
+div {
+	border: 5px solid grey;
+	outline: solid;
+	padding: 30px;
+	margin: auto;
+	width: 50%;
+	background-color: darkgrey;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	outline: solid white;
+	border: solid;
+}
+
+th, td {
+	border: solid;
+	padding: 10px;
+}
+
+span {
+	color: yellow;
+	font-style: italic;
+}

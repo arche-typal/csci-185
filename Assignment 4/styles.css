@@ -1,0 +1,73 @@
+.roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+	background-image: url("chess.png");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: top center;
+	background-size: cover;
+	font-family: roboto;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+div {
+	border: 2px solid red;
+	border-radius:25px;
+	outline: 2px solid;
+	padding: 30px;
+	margin: auto;
+	width: 50%;
+	background-color: #1f1c1c;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	text-shadow: 2px 2px black;
+}
+
+h1 {
+	letter-spacing: 10px;
+}
+
+a:link {
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid red;
+	border-radius: 10px;
+	text-shadow: 2px 2px red;
+}
+
+a:visited {
+	border: red;
+	color: white;
+}
+
+a:hover, a:active {
+	background-color: red !important;
+}
+
+#chessDotCom {
+	background-color: #fc2f21;
+	letter-spacing: 3px;
+}
+
+#lichess {
+	background-color: #fa4234;
+	letter-spacing: 3px;
+}
+
+#stlChess {
+	background-color: #fc5a4e;
+	letter-spacing: 3px;
+}

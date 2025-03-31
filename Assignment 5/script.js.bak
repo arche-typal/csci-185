@@ -1,0 +1,17 @@
+function changeFont() {
+	let font = document.getElementById("pFont").style.fontFamily
+	if (font === '' || font.includes("Times New Roman")) {	
+		document.getElementById("pFont").style.fontFamily = 'Arial';
+	} else {
+		document.getElementById("pFont").style.fontFamily = 'Times New Roman';
+	}
+}
+
+function changeColor() {
+	let color = document.getElementById("pFont").style.color
+	if (color === '' || color.includes("black")) {	
+		document.getElementById("pFont").style.color = 'red';
+	} else {
+		document.getElementById("pFont").style.color = 'black';
+	}
+}

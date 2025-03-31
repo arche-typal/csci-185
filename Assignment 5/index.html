@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+		<title>Buttons</title>
+	</head>
+	<body>
+		<div class="content">
+			<h1>This is a page of buttons.</h1>
+			<p id="p-font">Hello, here is some text. <br>Toggle the buttons below to change it's appearance.</p>
+			<!-- A button called "change font" that changes the font style of a paragraph on the page -->
+			<button onclick="changeFont()">Change Font</button>
+			<br><br>
+			<!-- A button called "change color" that changes the color of some text on the page. -->
+			<button onclick="changeColor()">Change Color</button>
+			<br><br>
+			<!-- A button called "hide" that hide some text from the webpage. -->
+			<button onclick="hideText()">Hide</button>
+			<br><br>
+			<!-- A button called "display" that displays some hidden text on the page. -->
+			<button onclick="displayText()">Display</button>
+			<br><br>
+			<!-- Hide/display toggling button for fun. -->
+			<button onclick="hideOrDisplay()">Hide or Display</button>
+			<br><br>
+			<!-- A button called "upside down" that turns a picture upside down. (Hint: change the source of an image to the upside down version of it) -->
+			<p>Click the button below to turn Beetlejuice upside down.<br>Click again to turn him right side up.
+			<br><br>
+			<button onclick="upsideDown()">Upside Down</button>
+			<br><br>
+			<img id="beetlejuice" src="images/beetlejuice.jpg" alt="BeetleJuice. BeetleJuice. BeetleJuice!">
+			<br><br>
+			<p>Click button below to display current time.</p>
+			<!-- A button called "time" that displays the time right now. -->
+			<button onclick="timeNow()">Time</button>
+			<div id="time-div"></div>
+			<br>
+			<!-- A button called "calculation" that carries out some math calculation and displays the result on the page. -->
+			<p>Click below to see what 2 + 2 equals.</p>
+			<button onclick="mathCalc()">Calculation</button>
+			<div id="math-div"></div>
+		</div>
+	</body>
+</html>
+
+
+
+

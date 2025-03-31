@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="script.js"></script>
+		<title>Buttons</title>
+	</head>
+	<body>
+		<h1>This is a page of buttons.</h1>
+		<p id="pFont">Hello, here is some text. Toggle the buttons below to change it's appearance.</p>
+		<!-- A button called "change font" that changes the font style of a paragraph on the page -->
+		<button onclick="changeFont()">Change Font</button>
+		<br><br>
+		<!-- A button called "change color" that changes the color of some text on the page. -->
+		<button onclick="changeColor()">Change Color</button>
+		<!-- A button called "upside down" that turns a picture upside down. (Hint: change the source of an image to the upside down version of it) -->
+		<button onclick="upsideDown()">Upside Down</button>
+	</body>
+</html>
+
+
+
+
+<!-- A button called "hide" that hide some text from the webpage. -->
+
+
+<!-- A button called "display" that displays some hidden text on the page. -->
+
+
+<!-- A button called "time" that displays the time right now. -->
+
+
+<!-- A button called "calculation" that carries out some math calculation and displays the result on the page. -->

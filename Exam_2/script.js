@@ -1,16 +1,16 @@
 // Use a JavaScript array to hold the names of items that you associate with the Spring season. Using a JavaScript loop print all those items on the screen, one item per line. 
 const springArray = [
-    "Sakura <span>aRr</span> (cherry blossoms)",
-    "Ume (plum blossoms)",
-    "Hanami (flower-viewing picnics)",
-    "Shinryoku (fresh green leaves)",
-    "Ichigo Daifuku (mochi with whole strawberry)",
-    "Takenoko (bamboo shoots)",
-    "Strawberries (ichigo)",
-    "Sakura Mochi (cherry blossom rice cake)",
-    "Sakura Wagashi (seasonal flower-shaped sweets)",
-    "Yozakura (nighttime cherry blossom viewing)",
-    "Haru Ichiban (first spring wind)"
+    "Sakura (<span>KHm</span>): cherry blossoms",
+    "Ume (<span>Ch</span>): plum blossoms",
+    "Hanami (<span>ZUf</span>): flower-viewing picnics",
+    "Shinryoku (<span>LznlmH</span>): fresh green leaves",
+    "Ichigo Daifuku (<span>BQJ dBbH</span>): mochi with whole strawberry",
+    "Takenoko (<span>PIYJ</span>): bamboo shoots",
+    "Ichigo (<span>BQJ</span>): strawberries",
+    "Sakura Mochi (<span>KHm iQ</span>): cherry blossom rice cake",
+    "Sakura Wagashi (<span>KHm rFL</span>): seasonal flower-shaped sweets",
+    "Yozakura (<span>ldKHm</span>): nighttime cherry blossom viewing",
+    "Haru Ichiban (<span>ZoBQez</span>): first spring wind"
   ];
 let springArrayTxt = "";
 let now = new Date();
@@ -60,8 +60,10 @@ function greetingMsg() {
 function displayWeekday() {
     const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     weekday = weekdays[now.getDay()];
-    weekdayOrWeekEnd = ((now.getDay() === 0 || now.getDay() === 6) ? "Happy Weekend!" : "Happy Weekday!");
+    if (now.getDay() === 0 || now.getDay() === 6) {
+        weekdayOrWeekEnd = "Happy Weekend!";
+    } else {
+        weekdayOrWeekEnd = "Happy Weekday!";
+    }
     document.getElementById("weekday").innerHTML = "<b>" + weekdayOrWeekEnd + " It's " + weekday + ".</b>";
 }
-
-// Place the webpage in a subfolder called exam_2 on your site, and then submit the link to the file.

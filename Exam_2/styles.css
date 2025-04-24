@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'sakura_kei';
+    src: url('fonts/sakura_kei/sakura_kei.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'palm_spring';
+    src: url('fonts/palm_spring/palm_spring.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hiragana';
+    src: url('fonts/hiragana/hiragana_tfb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(205, 236, 255);
+    color: rgb(255, 0, 128);
+    font-family: Calibri;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+	font-family: 'sakura_kei', sans-serif;
+	font-size: 120px;
+	font-weight:normal;
+}
+
+h3 {
+    font-family: 'palm_spring', sans-serif;
+    font-size: 30px;
+	font-weight:normal;
+}
+
+#spring-array {
+    word-spacing: 2px;
+
+}
+
+span {
+    font-family: 'hiragana';
+    font-weight: normal;
+}

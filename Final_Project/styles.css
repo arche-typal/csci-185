@@ -1,0 +1,68 @@
+body {
+	background-color: black;
+	word-spacing: 1px;
+	letter-spacing: 0.5px;
+	color: white;
+	font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body.home {
+    background-image: url("images/home/1.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.congo {
+    background-image: url("images/congo/home.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+#top-nav {
+    word-spacing: 5px;
+	margin: auto;
+    text-align: center;
+	min-width: 380px;
+    padding: 30px;
+    text-shadow: 10px 10px black;
+}
+
+.content {
+    border-radius:25px;
+	/* outline: 3px solid white; */
+	/* box-shadow: 0 0 0 5px white; */
+	padding: 30px;
+	margin: auto;
+	width: 50%;
+	min-width: 380px;
+	background-color: #1f1c1c;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	text-shadow: 2px 2px black;
+
+    border: 3px solid white;
+}
+
+a:link {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+	display: inline-block;
+	text-shadow: 1px 1px black;
+}
+
+a:hover {
+    font-style: normal;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}

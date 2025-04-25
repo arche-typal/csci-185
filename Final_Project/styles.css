@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'sakura_kei';
+    src: url('fonts/sakura_kei/sakura_kei.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'palm_spring';
+    src: url('fonts/palm_spring/palm_spring.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hiragana';
+    src: url('fonts/hiragana/hiragana_tfb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	background-color: black;
 	word-spacing: 1px;
@@ -15,8 +36,32 @@ body.home {
     background-attachment: fixed;
 }
 
+body.japan {
+    background-image: url("images/japan/home5.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.thailand {
+    background-image: url("images/thailand/background.png");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
 body.congo {
     background-image: url("images/congo/home.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.thailand {
+    background-image: url("images/thailand/background.png");
 	background-repeat: no-repeat;
     background-position: center;
 	background-size: cover;
@@ -65,4 +110,9 @@ a:hover {
 img {
 	width: 100%;
 	height: 100%;
+}
+
+iframe {
+	width: 100%;
+	aspect-ratio: 16 / 9;
 }

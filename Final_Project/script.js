@@ -9,6 +9,7 @@ function navBar() {
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
         <a href="japan.html">Japan</a>
+        <a href="taiwan.html">Taiwan</a>
         <a href="congo.html">Congo</a>
         <a href="thailand.html">Thailand</a>
         `;

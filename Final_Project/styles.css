@@ -195,17 +195,9 @@ h1.thailand {
 }
 
 a:link {
-	border-radius:10px;
 	color: white;
-	border: 1px solid white;
-	text-align: center;
-	text-decoration: none;
 	font-style: italic;
-	display: inline-block;
-	text-shadow: 1px 1px black;
-	background: rgba(0, 0, 0, 0.8);
-	padding: 10px;
-	min-width: 50px;
+	text-decoration: none;
 }
 
 a:visited {
@@ -219,6 +211,17 @@ a:visited {
 
 a:hover {
     font-style: normal;
+}
+
+#top-nav a:link {
+	border-radius:10px;
+	border: 1px solid white;
+	text-align: center;
+	display: inline-block;
+	text-shadow: 1px 1px black;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	min-width: 50px;
 }
 
 img {

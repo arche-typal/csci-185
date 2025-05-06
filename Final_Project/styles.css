@@ -6,15 +6,36 @@
 }
 
 @font-face {
-    font-family: 'palm_spring';
-    src: url('fonts/palm_spring/palm_spring.ttf') format('truetype');
+    font-family: 'african_style';
+    src: url('fonts/african_style/african_style.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'hiragana';
-    src: url('fonts/hiragana/hiragana_tfb.ttf') format('truetype');
+    font-family: 'chinese_watch_shop';
+    src: url('fonts/taiwan/chinese_watch_shop.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'thai_tea';
+    src: url('fonts/thai_tea/thai_tea.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'campanile';
+    src: url('fonts/campanile/campanile.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'default';
+    src: url('fonts/default/vogue.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +50,31 @@ body {
 }
 
 body.home {
-    background-image: url("images/home/1.jpg");
+    background-image: url("images/home/home.jpg");
+	background-repeat: no-repeat;
+    background-position: top center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.about {
+    background-image: url("images/about/about.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.faq {
+    background-image: url("images/faq/faq.png");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+body.contact {
+    background-image: url("images/contact/contact.jpg");
 	background-repeat: no-repeat;
     background-position: center;
 	background-size: cover;
@@ -44,6 +89,13 @@ body.japan {
     background-attachment: fixed;
 }
 
+body.taiwan {
+    background-image: url("images/taiwan/taiwan-7.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
 body.thailand {
     background-image: url("images/thailand/background.png");
 	background-repeat: no-repeat;
@@ -53,15 +105,7 @@ body.thailand {
 }
 
 body.congo {
-    background-image: url("images/congo/home.jpg");
-	background-repeat: no-repeat;
-    background-position: center;
-	background-size: cover;
-    background-attachment: fixed;
-}
-
-body.thailand {
-    background-image: url("images/thailand/background.png");
+    background-image: url("images/congo/1.jpg");
 	background-repeat: no-repeat;
     background-position: center;
 	background-size: cover;
@@ -74,18 +118,29 @@ body.thailand {
     text-align: center;
 	min-width: 380px;
     padding: 30px;
-    text-shadow: 10px 10px black;
+}
+
+#footer {
+    word-spacing: 5px;
+	margin: auto;
+    text-align: center;
+	min-width: 380px;
+    padding: 30px;
+    text-shadow: 
+	-2px -2px 3px black,
+	2px 2px 3px black,
+	-2px 2px 3px black,
+	2px -2px 3px black,
+	-2px -2px 10px black,
+	2px 2px 10px black;
 }
 
 .content {
     border-radius:25px;
-	/* outline: 3px solid white; */
-	/* box-shadow: 0 0 0 5px white; */
 	padding: 30px;
 	margin: auto;
 	width: 50%;
 	min-width: 380px;
-	background-color: #1f1c1c;
 	text-align: center;
 	color: white;
 	background: rgba(0, 0, 0, 0.8);
@@ -94,8 +149,67 @@ body.thailand {
     border: 3px solid white;
 }
 
+h1.default {
+	font-family: 'default', sans-serif;
+	font-size: 50px;
+	font-weight:normal;
+}
+
+h1.japan {
+	font-family: 'sakura_kei', sans-serif;
+	font-size: 90px;
+	font-weight:normal;
+}
+
+h1.taiwan {
+	font-family: 'chinese_watch_shop', sans-serif;
+	font-size: 120px;
+	font-weight:normal;
+}
+
+h1.congo {
+	font-family: 'african_style', sans-serif;
+	font-size: 80px;
+	font-weight:normal;
+}
+
+h2.congo {
+	font-family: 'campanile', sans-serif;
+	font-size: 40px;
+	font-weight:normal;
+}
+
+h3.congo {
+	font-family: 'default', sans-serif;
+	font-size: 30px;
+	font-weight:normal;
+}
+
+
+h1.thailand {
+	font-family: 'thai_tea', sans-serif;
+	font-size: 100px;
+	font-weight:normal;
+	margin-top: 0;
+  	margin-bottom: 0;
+}
+
 a:link {
+	border-radius:10px;
 	color: white;
+	border: 1px solid white;
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+	display: inline-block;
+	text-shadow: 1px 1px black;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	min-width: 50px;
+}
+
+a:visited {
+	color: lightgray;
 	text-align: center;
 	text-decoration: none;
 	font-style: italic;
@@ -110,6 +224,18 @@ a:hover {
 img {
 	width: 100%;
 	height: 100%;
+}
+
+img#thailand {
+	width: 70%;
+}
+
+img#taiwan {
+	width: 50%;
+}
+
+img#japan {
+	width: 50%;
 }
 
 iframe {
